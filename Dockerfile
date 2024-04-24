@@ -18,7 +18,7 @@ WORKDIR /opt/1Panel
 
 RUN set -ex \
     && mkdir -p build dist \
-    && wget https://github.com/hubhike/1Panel-loongarch64/releases/download/${VERSION}/web-${VERSION}.tar.gz \
+    && wget https://github.com/hubhike/1Panel-loongarch64/releases/download/${VERSION}-lts/web-${VERSION}-lts.tar.gz \
     && wget https://github.com/1Panel-dev/installer/raw/main/1pctl \
     && wget https://github.com/1Panel-dev/installer/raw/main/1panel.service \
     && wget https://github.com/1Panel-dev/installer/raw/main/install.sh \
