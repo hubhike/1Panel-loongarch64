@@ -47,6 +47,7 @@ archives:
       - install.sh
       - README.md
       - LICENSE
+      - lang/*
     # use zip for windows archives
     format_overrides:
       - goos: windows
